@@ -98,7 +98,8 @@ h1{
 }
 
 .product__img{
-  height: 300px;
+  height: 300px;;
+  max-width: 100%;
 }
 
 .product__box p{
@@ -141,9 +142,38 @@ h1{
 }
 
 #come__funziona img{
-  max-width: 300px;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
 }
 /* end come funziona */
+
+/* block section */
+
+#block__section{
+  margin-top: 80px;
+}
+
+.block__details{
+  background-color: #fafafa;
+}
+
+.block__logo{
+  width: 300px;
+  max-width: 100%;
+  margin-top: 60px;
+}
+
+.block__img{
+  text-align: right;
+}
+
+.block__img img{
+  max-width: 100%;
+}
+
+/* end block section */
+
 
 /* responsive */
 
@@ -167,12 +197,17 @@ h1{
     position: relative;
     top: 680px;
     padding-left: 60px;
+    padding-right: 10px;
   }
 
   .box__down2{
     position: relative;
   }
 
+  .block__img{
+    max-width: 100%;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 767px){
