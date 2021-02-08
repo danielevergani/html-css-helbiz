@@ -1,3 +1,9 @@
+/* typo */
+h1{
+  font-size: 100px;
+}
+
+/* end typo */
 
 /* buttons */
 .btn__language{
@@ -16,10 +22,11 @@
   font-size: 12px;
 }
 
-/* header */
+/* barra nav */
 
 .navigation{
   height: 70px;
+  background-color: white;
 }
 
 .nav__logo{
@@ -62,4 +69,32 @@
 .hamburger{
   padding-top: 2px;
   padding-right: 30px;
+}
+
+/* end barra nav */
+
+/* hero */
+
+.hero{
+  margin-top: 70px;
+}
+
+.hero img{
+  width: 100%;
+}
+
+/* end hero */
+
+/* responsive */
+
+@media screen and (max-width: 992px){
+  h1{
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  h1{
+    font-size: 60px;
+  }
 }
