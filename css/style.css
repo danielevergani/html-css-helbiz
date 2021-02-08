@@ -112,6 +112,37 @@ h1{
 
 /* end prodotti principali */
 
+/* come funziona */
+
+#come__funziona{
+  background-image: url("../img/banner.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.main__container{
+  max-width: 900px;
+  margin: auto;
+  padding-top: 300px;
+}
+
+.box{
+  display: inline-block;
+  width: calc((100% / 3) - 4px)
+}
+
+.box__lat{
+  vertical-align: bottom;
+  padding-bottom: 100px;
+}
+
+.box__lat:last-child{
+  padding-left: 60px;
+}
+
+#come__funziona img{
+  max-width: 300px;
+}
+/* end come funziona */
 
 /* responsive */
 
@@ -119,6 +150,28 @@ h1{
   h1{
     font-size: 80px;
   }
+
+  .box{
+    display: block;
+    width: 100%;
+  }
+
+  .box__phone{
+    text-align: center;
+    position: relative;
+    bottom: 160px;
+  }
+
+  .box__down{
+    position: relative;
+    top: 680px;
+    padding-left: 60px;
+  }
+
+  .box__down2{
+    position: relative;
+  }
+
 }
 
 @media screen and (max-width: 767px){
