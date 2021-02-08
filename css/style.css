@@ -154,6 +154,10 @@ h1{
   margin-top: 80px;
 }
 
+.block__size{
+  height: 700px;
+}
+
 .block__details{
   background-color: #fafafa;
 }
@@ -168,8 +172,28 @@ h1{
   text-align: right;
 }
 
+.block__details_b{
+  position: relative;
+  background-color: #4fc6f3;
+  color: white;
+}
+
 .block__img img{
   max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.block__w__background{
+  background-image: url("../img/city.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
 }
 
 /* end block section */
