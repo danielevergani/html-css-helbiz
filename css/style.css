@@ -1,0 +1,65 @@
+
+/* buttons */
+.btn__language{
+  background-color: transparent;
+  text-transform: uppercase;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 0px;
+  font-size: 12px;
+}
+
+.btn__black{
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  font-size: 12px;
+}
+
+/* header */
+
+.navigation{
+  height: 70px;
+}
+
+.nav__logo{
+  line-height: 70px;
+}
+
+.nav__logo img{
+  width: 100px;
+}
+
+.nav__logo, .nav__bars, .primary__nav, .secondary__nav{
+  display: inline-block;
+}
+
+.nav__bars, .hamburger{
+  float: right;
+  line-height: 70px;
+}
+
+.nav__bars{
+  font-size: 12px;
+}
+
+.primary__nav{
+  margin-right: 30px;
+}
+
+.primary__nav li{
+  margin-right: 20px;
+}
+
+.primary__nav a{
+  color: black;
+}
+
+.navigation a{
+  text-transform: uppercase;
+}
+
+.hamburger{
+  padding-top: 2px;
+  padding-right: 30px;
+}
