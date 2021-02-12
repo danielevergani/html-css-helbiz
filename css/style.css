@@ -3,6 +3,18 @@ h1{
   font-size: 100px;
 }
 
+h3{
+  margin: 0;
+}
+
+h4{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
 /* end typo */
 
 /* buttons */
@@ -115,28 +127,41 @@ h1{
 
 /* come funziona */
 
+#come__funziona{
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+}
+
 .main__container{
-  width: 900px;
+  max-width: 900px;
   margin: auto;
+  padding-top: 350px;
 }
 
 .box{
   display: inline-block;
-  width: calc((100%/3)-4px);
-  height: 200px;
+  width: calc(100% / 3);
+  position: relative;
+
 }
 
 .box_2{
-  height: 300px;
-  background-color: blue;
+  left: calc(100% / 3);
+}
+
+.box_2 img{
+  width: 100%;
 }
 
 .box_1{
-  background-color: green;
+  right: calc(100% / 3);
+  top: 150px;
+  vertical-align: baseline;
 }
 
 .box_3{
-  background-color: yellow;
+  top: 150px;
+  padding-left: 15px;
 }
 
 /* end come funziona */
@@ -193,6 +218,7 @@ h1{
   position: relative;
   background-image: url("../img/scooter-banner.jpg");
   background-size: cover;
+
   background-repeat: no-repeat;
   color: white;
 }
@@ -214,8 +240,6 @@ h1{
     font-size: 80px;
   }
 
-
-
   .block__img{
     max-width: 100%;
     text-align: center;
@@ -226,6 +250,24 @@ h1{
 @media screen and (max-width: 767px){
   h1{
     font-size: 60px;
+  }
+
+  .box{
+    width: 100%;
+    position: static;
+    padding-bottom: 20px;
+  }
+
+  .box_2{
+    text-align: center;
+  }
+
+  .box_2 img{
+    width: 60%;
+  }
+
+  .box_1, .box_3{
+    padding-left: 15px;
   }
 
   .block__img img{
