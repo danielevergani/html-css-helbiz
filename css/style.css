@@ -143,7 +143,6 @@ h1{
 
 #come__funziona img{
   width: 300px;
-  max-width: 100%;
   height: auto;
 }
 /* end come funziona */
@@ -155,7 +154,8 @@ h1{
 }
 
 .block__size{
-  height: 700px;
+  height: 600px;
+  margin-bottom: 30px;
 }
 
 .block__details{
@@ -196,20 +196,17 @@ h1{
 }
 
 .block__w__background2{
-  color: white;
+  position: relative;
   background-image: url("../img/scooter-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: right;
+  color: white;
 }
 
 .block__background__text{
-  color: white;
-  max-width: 600px;
   display: inline-block;
-  padding-top: 200px;
-  padding-right: 80px;
 }
+
 /* end block section */
 
 
@@ -218,6 +215,42 @@ h1{
 @media screen and (max-width: 992px){
   h1{
     font-size: 80px;
+  }
+
+  .box {
+    display: block;
+  }
+
+  .box__phone{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 160px;
+  }
+
+  .box__down{
+    width: 100%;
+    position: relative;
+    top: 680px;
+    padding-left: 60px;
+    padding-right: 10px;
+  }
+
+  .box__down2{
+    width: 100%;
+    position: relative;
+  }
+
+  .block__img{
+    max-width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+  h1{
+    font-size: 60px;
   }
 
   .box__phone{
@@ -237,19 +270,9 @@ h1{
     position: relative;
   }
 
-  .block__img{
-    max-width: 100%;
-    text-align: center;
+  .block__img img{
+    width: 100%;
+    max-width: 300px;
   }
 
-  .block__w__background2{
-    text-align: center;
-  }
-
-}
-
-@media screen and (max-width: 767px){
-  h1{
-    font-size: 60px;
-  }
 }
