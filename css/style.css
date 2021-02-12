@@ -115,36 +115,30 @@ h1{
 
 /* come funziona */
 
-#come__funziona{
-  background-image: url("../img/banner.jpg");
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: 14% -2%;
-}
 .main__container{
-  max-width: 900px;
+  width: 900px;
   margin: auto;
-  padding-top: 300px;
 }
 
 .box{
   display: inline-block;
-  width: calc((100% / 3) - 4px)
+  width: calc((100%/3)-4px);
+  height: 200px;
 }
 
-.box__lat{
-  vertical-align: bottom;
-  padding-bottom: 100px;
+.box_2{
+  height: 300px;
+  background-color: blue;
 }
 
-.box__lat:last-child{
-  padding-left: 60px;
+.box_1{
+  background-color: green;
 }
 
-#come__funziona img{
-  max-width: 100%;
-  height: auto;
+.box_3{
+  background-color: yellow;
 }
+
 /* end come funziona */
 
 /* block section */
@@ -220,34 +214,7 @@ h1{
     font-size: 80px;
   }
 
-  .box {
-    display: block;
-  }
 
-  .box__phone{
-    width: 100%;
-    text-align: center;
-    position: relative;
-    bottom: 300px;
-  }
-
-  #come__funziona img{
-    max-width: 40%;
-    height: auto;
-  }
-
-  .box__down{
-    width: 100%;
-    position: relative;
-    top: 620px;
-    padding-left: 60px;
-    padding-right: 10px;
-  }
-
-  .box__down2{
-    width: 100%;
-    position: relative;
-  }
 
   .block__img{
     max-width: 100%;
@@ -259,23 +226,6 @@ h1{
 @media screen and (max-width: 767px){
   h1{
     font-size: 60px;
-  }
-
-  .box__phone{
-    text-align: center;
-    position: relative;
-    bottom: 160px;
-  }
-
-  .box__down{
-    position: relative;
-    top: 600px;
-    padding-left: 60px;
-    padding-right: 10px;
-  }
-
-  .box__down2{
-    position: relative;
   }
 
   .block__img img{
