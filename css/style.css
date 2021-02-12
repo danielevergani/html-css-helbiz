@@ -142,7 +142,7 @@ h1{
 }
 
 #come__funziona img{
-  width: 300px;
+  max-width: 100%;
   height: auto;
 }
 /* end come funziona */
@@ -204,6 +204,9 @@ h1{
 }
 
 .block__background__text{
+  position: absolute;
+  bottom: 50%;
+  right: 4%;
   display: inline-block;
 }
 
@@ -274,5 +277,15 @@ h1{
     width: 100%;
     max-width: 300px;
   }
+
+  .block__background__text{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    display: inline-block;
+    text-align: center;
+  }
+
 
 }
